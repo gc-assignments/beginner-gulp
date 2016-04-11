@@ -1,3 +1,5 @@
+/* style.css */
+
 .container {
   display: -webkit-box;
   display: -webkit-flex;
@@ -11,4 +13,5 @@
           user-select: none;
   background: -webkit-linear-gradient(top, white, black);
   background: linear-gradient(to bottom, white, black);
+  /* transform: rotate(90deg); */
 }

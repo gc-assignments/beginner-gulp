@@ -1,6 +1,6 @@
-/* style.css */
+/* widget.css */
 
-.container {
+.widget {
   display: flex;
   transition: all .5s;
   user-select: none;
