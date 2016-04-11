@@ -115,9 +115,7 @@ gulp.task('prefix', function() {
 });
 ```
 
-Now the original file is all messed up, defeating the purpose of using gulp
-autoprefixer mentioned earlier. Wouldn't it be great if there's some plugin that
-can...
+Now if you want to rename the file
 
 *Google: gulp rename*
 
@@ -143,7 +141,7 @@ gulp.task('prefix', function() {
 Now you can keep working on the original file and just run `gulp prefix` to
 create the prefixed css file for production use.
 
-If you think typing `gulp prefix` every time is quite annoying, you can name your
+If you think typing `gulp prefix` every time is a bit annoying, you can name your
 task "default" instead and by typing `gulp`, it'll run the default task.
 
 Like so:
