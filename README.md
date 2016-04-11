@@ -301,22 +301,6 @@ gulp.task('default', function() {
 Once you restart `gulp` and change any of the files (`style.css`, `widget.css`)
 being watched, `prefix`, `one`, and `random` will all be run.
 
-### Watch yourself!
-Wouldn't be great if we don't have to restart `gulp` every time. 
-
-With the power of Gulp, of course we can, let's let gulp watch itself.
-
-```javascript
-gulp.task('default', function() {
-  gulp.watch('./css/*.css', ['prefix', 'one', 'random']);
-  // when gulpfile.js changes, rerun default tasks
-  gulp.watch('./gulpfile.js', ['default']); 
-});
-```
-
-That's it. Now restart `gulp` and you don't have to restart it again when you
-update your gulpfile.
-
 ### More useful plugins
 So far we've only used one plugin `autoprefixer`, let's add some more useful
 tasks.
